@@ -109,7 +109,6 @@ public class SendSMS extends AbstractConnector implements Connector {
                     "SendSMS";
             log.error(msg);
             throw new ConnectException(msg);
-
         }
 
         if (log.isDebugEnabled()) {
